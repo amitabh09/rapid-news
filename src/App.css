@@ -1,0 +1,14 @@
+.cnt1
+{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap; 
+    
+    align-content: center;
+    border: 2px solid black;
+    background-color: grey;
+}
+.margin1
+{
+    margin-left: 3%;
+}

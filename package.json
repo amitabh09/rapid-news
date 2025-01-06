@@ -1,0 +1,31 @@
+{
+  "name": "rapid-news",
+  "version": "1.0.0",
+  "description": "",
+  "homepage": "https://github.com/amitabh09/rapid-news#readme",
+  "bugs": {
+    "url": "https://github.com/amitabh09/rapid-news/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/amitabh09/rapid-news.git"
+  },
+  "license": "ISC",
+  "author": "",
+  "scripts": {
+    "start": "parcel src/index.html",
+    "build": "parcel build src/index.html",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "devDependencies": {
+    "parcel": "^2.13.3",
+    "process": "^0.11.10"
+  },
+  "dependencies": {
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "react-infinite-scroll-component": "^6.1.0",
+    "react-router-dom": "^7.1.1",
+    "react-top-loading-bar": "^3.0.2"
+  }
+}
